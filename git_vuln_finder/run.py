@@ -31,6 +31,7 @@ def find(
     # Initialization of the patterns
     patterns = get_patterns()
     vulnpatterns = patterns["en"]["medium"]["vuln"]
+    actionspattern = patterns["en"]["medium"]["actions"]
     cryptopatterns = patterns["en"]["medium"]["crypto"]
     cpatterns = patterns["en"]["medium"]["c"]
 
@@ -40,8 +41,10 @@ def find(
         defaultpattern = cryptopatterns
     elif defaultpattern == "cpatterns":
         defaultpattern = cpatterns
+    elif defaultpattern = "actionspatterns":
+        defaultpattern = actionspattern
     elif defaultpattern == "all":
-        defaultpattern = [vulnpatterns, cryptopatterns, cpatterns]
+        defaultpattern = [vulnpatterns, cryptopatterns, cpatterns, actionspattern]
 
     repo_heads = repo.heads
     repo_heads_names = [h.name for h in repo_heads]
