@@ -41,7 +41,7 @@ def find(
         defaultpattern = cryptopatterns
     elif defaultpattern == "cpatterns":
         defaultpattern = cpatterns
-    elif defaultpattern = "actionspatterns":
+    elif defaultpattern == "actionspatterns":
         defaultpattern = actionspattern
     elif defaultpattern == "all":
         defaultpattern = [vulnpatterns, cryptopatterns, cpatterns, actionspattern]
