@@ -50,6 +50,8 @@ python = "^3.6"
 langdetect = "^1.0.7"
 gitpython = "^3.0.5"
 pymisp = "^2.4.128"
+redis = "^4.0.1"
+rq = "^1.10.0"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^3.7.9"

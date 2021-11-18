@@ -13,7 +13,7 @@
 import json
 import sys
 import argparse
-
+import os
 from git_vuln_finder import find, find_vuln, summary
 
 
@@ -45,6 +45,11 @@ def main():
     parser.add_argument(
         "-t", help="Include tags matching a specific commit", action="store_true"
     )
+    parser.add_argument(
+        "-odir", 
+        type=str, 
+        help="JSON output directory"
+    )
     args = parser.parse_args()
 
     if args.p not in ["vulnpatterns", "cryptopatterns", "cpatterns", "all"]:
@@ -67,8 +72,18 @@ def main():
     # Output the result as json. Can be piped to another software.
     if not args.c:
         print(json.dumps(all_potential_vulnerabilities))
+        if args.odir and all_potential_vulnerabilities:
+            oname = os.path.basename(args.r)
+            print(args.r, oname)
+            with open(f'{args.odir}/{oname}.json', 'w') as fp:
+                json.dump(all_potential_vulnerabilities, fp)
     elif args.c:
         print(json.dumps(list(all_cve_found)))
+        if args.odir and all_cve_found:
+            oname = os.path.basename(args.r)
+            print(args.r, oname)
+            with open(f'{args.odir}/{oname}.cve.json', 'w') as fp:
+                json.dump(all_potential_vulnerabilities, fp)
 
     # Output the result to stderr.
     print(

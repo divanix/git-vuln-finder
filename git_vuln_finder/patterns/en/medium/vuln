@@ -28,3 +28,11 @@ security
 \bcross−origin\b
 unauthori[z|s]ed 
 infinite loop
+cred
+token leak
+shell injection
+code injection
+command injection
+remote code execution
+untrusted
+secret leak
