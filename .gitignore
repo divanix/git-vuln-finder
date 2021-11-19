@@ -37,3 +37,4 @@ eproject.cfg
 
 # Vagrant:
 .vagrant/
+.vscode/
