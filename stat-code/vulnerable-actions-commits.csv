@@ -1,4 +1,4 @@
-actions repository,commit hash,commit date,commit url,responsible,status,comments,TODO,0,DONE,5373
+repo,commit,date,url,responsible,status,comments
 danthe1st/actions-command-system,a423fac85c89c3ceb50cd82fbef7f661aae768cb,1575303433,https://github.com/danthe1st/actions-command-system/commits/a423fac85c89c3ceb50cd82fbef7f661aae768cb,igibek,0,,,,,
 financial-times/origami-labels,96e89bddf87c70a14fb94c04e3811c33a2205ec3,1615825567,https://github.com/financial-times/origami-labels/commits/96e89bddf87c70a14fb94c04e3811c33a2205ec3,igibek,0,,,,,
 financial-times/origami-labels,7ae22a1f7cbd40f8898ea785278321abd9da9de7,1584360539,https://github.com/financial-times/origami-labels/commits/7ae22a1f7cbd40f8898ea785278321abd9da9de7,igibek,0,,,,,
@@ -4522,7 +4522,7 @@ bcstestit/invoke-azure-logic-app,e6ff5dce51a5f2ca5d714085b26af28ab71a46bc,158582
 bcstestit/invoke-azure-logic-app,3b2bd30298254428924428f0e5034af9d5873706,1584657003,https://github.com/bcstestit/invoke-azure-logic-app/commits/3b2bd30298254428924428f0e5034af9d5873706,anahape,2,,,,,
 dldt/get-release-info,0f23743a7230cb5cf54750589e5837605a4a5150,1609231987,https://github.com/dldt/get-release-info/commits/0f23743a7230cb5cf54750589e5837605a4a5150,anahape,0,,,,,
 dldt/get-release-info,9d9edbefe443dc394e928af9cca0b654912c4875,1609231906,https://github.com/dldt/get-release-info/commits/9d9edbefe443dc394e928af9cca0b654912c4875,anahape,0,,,,,
-actions/checkout,a6747255bd19d7a757dbdda8c654a9f84db19839,1576177444,https://github.com/actions/checkout/commits/a6747255bd19d7a757dbdda8c654a9f84db19839,anahape,0,,,,,
+actions/checkout,a6747255bd19d7a757dbdda8c654a9f84db19839,1576177444,https://github.com/actions/checkout/commits/a6747255bd19d7a757dbdda8c654a9f84db19839,anahape,1,,,,,
 actions/checkout,c170eefc2657d93cc91397be50a299bff978a052,1576176566,https://github.com/actions/checkout/commits/c170eefc2657d93cc91397be50a299bff978a052,anahape,0,,,,,
 chugunovroman/action-gh-release,2cf5c664505721097376937a6b0bcd26758fefc8,1604513929,https://github.com/chugunovroman/action-gh-release/commits/2cf5c664505721097376937a6b0bcd26758fefc8,anahape,1,,,,,
 chugunovroman/action-gh-release,aabd85678e9610477625d354d22a024c5b6cc087,1604513866,https://github.com/chugunovroman/action-gh-release/commits/aabd85678e9610477625d354d22a024c5b6cc087,python,1,,,,,
